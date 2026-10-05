@@ -1,12 +1,12 @@
-import React from 'react'
 import UserProfile from './UserProfile'
 
 const Navbar = () => {
   return (
-    <div className="col-span-3 h-20 bg-gray-200 flex items-center justify-center">
+    <div className="h-16 bg-white border-b border-slate-200 flex items-center justify-end px-8 shadow-sm">
       <UserProfile />
     </div>
   )
 }
 
 export default Navbar
+
